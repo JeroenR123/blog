@@ -11,10 +11,10 @@ function App() {
         {/* Start post */}
         <div className='shadow-md mx-5 my-5 bg-primary artboard w-10/12 h-min rounded-md'>
           <div className='card'>
-            <div className='card-title mx-2 my-2'>
+            <div className='card-title mx-auto my-2'>
               I have an{" "}
               <Definition
-                text='ethical dillema?'
+                text='ethical dilemma?'
                 defnintion='A moral (ethical) dilemma is a situation that involves a choice, decision, act/action, solution that may include an unpleasant problem or situation where you feel you simply do not know what to do or which way to turn.'
               />
             </div>
