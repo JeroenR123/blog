@@ -21,19 +21,19 @@ function Definition({ text, defnintion }) {
   if (!hover) {
     return (
       <>
-        <a className='link' onMouseEnter={onHover}>
+        <btn className='link' onMouseEnter={onHover}>
           {text}
-        </a>
+        </btn>
       </>
     )
   } else {
     return (
       <>
-        <a className='link' onMouseLeave={offHover}>
+        <btn className='link hover:text-black' onMouseLeave={offHover}>
           {" "}
           {text}{" "}
-        </a>
-        <div className='absolute flex card bg-slate-800'>
+        </btn>
+        <div className='absolute flex card right-0 bottom-0 bg-slate-800'>
           <div className='card-title mx-2 my-2'>{upperCaseText}</div>
           <div className='card-body'>{defnintion}</div>{" "}
         </div>

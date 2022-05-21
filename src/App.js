@@ -1,10 +1,11 @@
+import Avatar from "./Component.jsx/Avatar"
 import BlogPost from "./Component.jsx/BlogPost"
 import Definition from "./Component.jsx/Definition"
 import Header from "./Component.jsx/Header"
 
 function App() {
   return (
-    <div data-theme='dark' className="overflow-x-hidden h-screen">
+    <div data-theme='dark' className='overflow-x-hidden h-min'>
       <Header />
       <div className='w-screen flex flex-col items-center'>
         <div className='shadow-md mx-5 my-5 bg-primary artboard w-10/12 h-min rounded-md'>
@@ -13,6 +14,8 @@ function App() {
             <div className='card-body'>
               {" "}
               <BlogPost>
+
+
                 <div className='text-sm mx-2 my-2'>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
@@ -50,6 +53,7 @@ function App() {
                   nisi. Nam eget dui.
                 </div>
               </BlogPost>
+              <Avatar name = 'Emanual Kant' url = 'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQRG3dwbX2sZaqAkHaM_uHXgTWnGEcMe9iVIK6rXKYSvMc3DkJdOLianddwLZtI'/>
             </div>
           </div>
         </div>
@@ -95,8 +99,10 @@ function App() {
                   ultricies nisi vel augue. Curabitur ullamcorper ultricies
                   nisi. Nam eget dui.
                 </div>
+                
               </BlogPost>
             </div>
+            
           </div>
         </div>
       </div>
