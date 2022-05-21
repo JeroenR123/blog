@@ -4,7 +4,7 @@ export default function Avatar({url, name}) {
   return (
     <div className='h-20 mx-2 flex flex-row items-center'>
     {" "}
-    <div className='avatar h-20'>
+    <div className='avatar h-20 w-16'>
       <img
         className='rounded-xl border '
         src={url}
