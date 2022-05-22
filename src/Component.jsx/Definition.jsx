@@ -33,7 +33,7 @@ function Definition({ text, defnintion }) {
           {" "}
           {text}{" "}
         </btn>
-        <div className='absolute flex card w-5/12 text-md right-0 bottom-0 bg-slate-800'>
+        <div className='absolute flex card w-3/12 text-md right-0 top-0 bg-slate-800'>
           <div className='card-title mx-auto text-md '>{upperCaseText}</div>
           <div className='card-body text-sm font-normal'>{defnintion}</div>{" "}
         </div>
